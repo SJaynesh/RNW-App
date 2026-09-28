@@ -1,0 +1,96 @@
+name: rnw_institue
+description: "Red & White Multimedia Education has introduced the RNW Student App, a mobile application that aims to create a sustainable connection between students, parents, and the Institute. With over 35,000 students from diverse backgrounds benefiting from holistic education across various campuses in Gujarat, it is essential to bring the entire RNW community together."
+publish_to: 'none'
+version: 1.9.1+33
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  animations: ^2.0.11
+  flutter_gen_runner: ^5.6.0
+  flutter_screenutil: ^5.9.3
+  build_runner: ^2.4.11
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.6
+  flutter_svg: ^2.0.10+1
+  http: ^1.2.0
+  dio: ^5.4.1
+  hive: ^2.2.3
+  intl_utils: ^2.8.7
+  google_fonts: ^8.1.0
+  gif_view: ^0.4.4
+  pinput: ^5.0.0
+  # flutter_calendar_carousel: ^2.4.3
+  hive_flutter: ^1.1.0
+  package_info_plus: 
+  path_provider: ^2.0.0
+  pretty_dio_logger: ^1.3.1
+  lottie: ^3.1.2
+  cached_network_image: ^3.3.1
+  fluttertoast: ^9.1.0
+  internet_connection_checker: ^1.0.0+1
+  bloc: ^8.1.4
+  carousel_slider: ^5.0.0
+  # permission_handler: ^11.3.1
+  # share_plus: 
+  shimmer: ^2.0.0
+  # webview_flutter: 2.8.0
+  webview_flutter: ^4.4.0 
+  flutter_spinkit: ^5.2.1
+  intl: ^0.20.2
+  dropdown_button2: ^2.3.9
+  url_launcher: ^6.3.1
+  flutter_gif:
+  flutter_calendar_carousel_updated: ^1.0.0
+  flutter_html: 
+  firebase_core: ^3.8.0
+  onesignal_flutter: ^5.5.8
+  permission_asker: ^1.0.0+1
+  # open_filex: ^4.6.0
+  # syncfusion_flutter_pdfviewer: ^26.2.9
+  wakelock_plus: ^1.2.10
+  in_app_update: ^4.2.3
+
+dependency_overrides:
+  permission_handler: ^11.3.1
+  intl: ^0.20.2
+
+
+
+flutter_gen:
+  class_name: Lang
+  line_lenght: 180
+  null_safety: true
+  # Optional
+  integrations:
+    flutter_svg: true
+    flare_flutter: true
+    rive: true
+    lottie: true
+
+flutter_intl:
+  enabled: true
+  main_locale: en
+  class_name: Lang
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/image/png/
+     - assets/image/png/notification/
+     - assets/image/svg/
+     - assets/image/icon/
+     - assets/image/png/other/
+     - assets/image/lotties/

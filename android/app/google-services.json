@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "239014325824",
+    "project_id": "rnw-student-app",
+    "storage_bucket": "rnw-student-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239014325824:android:e4d72304a90c0328a2f9a5",
+        "android_client_info": {
+          "package_name": "com.rnw_institue.studentapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC4UwCH56x0MaXNvgMDV71V8DM0jfacEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

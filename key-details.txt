@@ -1,0 +1,4 @@
+storePassword=RNWStudentApp@2023
+keyPassword=RNWStudentApp@2023
+keyAlias=RNWStudentApp
+storeFile=/Volumes/DATA/Ravi Gadhiya/GitHub/CFA-RWn-Institute/rnwstudentapp.jks
